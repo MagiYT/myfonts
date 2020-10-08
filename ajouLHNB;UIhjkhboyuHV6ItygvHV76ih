@@ -1,0 +1,25 @@
+<head>
+<title>Fonts Display</title>
+</head>
+<body>
+<p class="ppc">Pig Pen Code</p>
+</body>
+<style>
+@font-face {
+
+    font-family: PigPenCode
+
+    src: url(https://www.yoursite.com/fonts/coolfont_bold.woff);
+
+    font-weight: bold;
+
+}
+
+.form-all *{
+
+font-family: 'PigPenCode', sans-serif;
+
+}
+
+
+</style>
